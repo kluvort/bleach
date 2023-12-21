@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background-image: url(images/black.avif);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 2em;
+        color: white;
+    }
+    .aizentop{
+        background-color: gray;
+        height: 20px;
+    }
+    .aizentop h6{
+        color: gray;
+    }
+    #searchBar2 {
+    border: 2px groove black;
+    border-radius: 100px;
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+    top: -10px;
+    left: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: cursive;
+  }
+  
+  #searchBar2::before {
+    content: "";
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 24 24" fill="#333" stroke="#fff" stroke-width="2"%3E%3Cpath d="M18.3 19.8l-7.3-7.3 7.3-7.3 1.4 1.4 5.7 5.7c0 0 5.7 5.7 5.7 5.7v5.7h5.7v-5.7l-5.7-5.7z"/%3E%3C/svg%3E');
+    background-size: cover;
+  }
+  
+  #searchBar2:hover {
+    background-color: transparent;
+  }
+  
+  #searchBar2:focus {
+    outline: none;
+    color: gray;
+    box-shadow: 0 0 0 2px transparent;
+  }
+
+</style>
+<body>
+    <div class="aizentop">
+        <h6> yo</h6>
+    </div>
+    <div class="top">
+        <nav>
+            <img src="images/bleachlogo.png" width="50px">
+            <li> Home </li>
+            <li> Blog </li>
+            <li> About </li>
+            <input type="text" id="searchBar2" placeholder="Search...">
+          </nav>
+    </div>
+    
+  
+   
+</body>
+</html>
